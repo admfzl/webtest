@@ -6,7 +6,7 @@ const yesButton = document.querySelector(".btn--yes");
 const noButton = document.querySelector(".btn--no");
 const catImg = document.querySelector(".cat-img");
 
-const MAX_IMAGES = 5;
+const MAX_IMAGES = 17;
 
 let play = true;
 let noCount = 0;
@@ -35,7 +35,7 @@ function handleYesClick() {
 function resizeYesButton() {
   const computedStyle = window.getComputedStyle(yesButton);
   const fontSize = parseFloat(computedStyle.getPropertyValue("font-size"));
-  const newFontSize = fontSize * 1.6;
+  const newFontSize = fontSize * 1.0;
 
   yesButton.style.fontSize = `${newFontSize}px`;
 }
