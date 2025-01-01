@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Yayyy!! :3";
+  titleElement.innerHTML = "YEAYYYSYSYS WUHUUUU HAHAHAHS LETSGOOO JOM GI RAGEROOM OR SOMETHING OR I DUNNO LETS HANGOUT PLEOLSPSLSPLSPSLSKSOS";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
