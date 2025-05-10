@@ -66,6 +66,7 @@ function generateMessage(noCount) {
 }
 
 function changeImage(image) {
+  console.log("Changing image to:", image);
   catImg.src = `img/cat-${image}.jpg`;
 }
 
