@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "YEAYYYSYSYS WUHUUUU HAHAHAHS LETSGOOO JOM GI RAGEROOM OR SOMETHING OR I DUNNO LETS HANGOUT PLEOLSPSLSPLSPSLSKSOS";
+  titleElement.innerHTML = "YEAYYYSYSYS WUHUUUU HAHAHAHS THANK YOU SAYANG NANTI KITA PLAN TAUUU KELUAR JALAN JALAN PLEOLSPSLSPLSPSLSKSOS";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -51,14 +51,14 @@ function generateMessage(noCount) {
     "why are you still pressing?",
     "takde kerja ke?",
     "cakap jela tak suka i :((((",
-    "you really gonna keep pressing?",
+    "you memang nak tekan lagi ke?",
     "faham",
     "faham sangat",
     "k",
     "noted",
     "with thanks",
     "you cant escape me",
-    "WE WILL BE GOING OUT",
+    "BWUEK NAK TANAK KENA TEKAN YES JUGAK",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
