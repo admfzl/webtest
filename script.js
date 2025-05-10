@@ -65,6 +65,12 @@ function generateMessage(noCount) {
   return messages[messageIndex];
 }
 
+function changeImage(image) {
+  console.log("Changing image to:", image); // Debugging log
+  catImg.src = `img/cat-${image}.jpg`;
+}
+
+
 function updateNoButtonText() {
   noButton.innerHTML = generateMessage(noCount);
 }
