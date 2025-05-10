@@ -68,8 +68,3 @@ body {
 .hidden {
   display: none;
 }
-
-.cat-img {
-  display: block;
-  visibility: visible;
-}
